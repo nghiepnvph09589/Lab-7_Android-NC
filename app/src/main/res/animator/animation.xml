@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:duration="1000"
+    android:repeatMode="reverse"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <rotate-->
+<!--        android:fromDegrees="0"-->
+<!--        android:toDegrees="360"/>-->
+        <objectAnimator
+            android:repeatCount="1000"
+            android:duration="43200000"
+            android:propertyName="rotation"
+            android:valueFrom="0f"
+            android:valueTo="360f"/>
+
+</set>
